@@ -1,0 +1,193 @@
+h1 {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+#MainDiv {
+    width: 100%;
+    padding-top: 50px;
+    display:flex;
+}
+
+.LeftCol {
+    width: 75%;
+    height: 700px;
+    overflow-y: auto;
+}
+
+#RightCol {
+    width: 24%;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+
+.cart-item {
+    display: flex;
+    padding-top: 10px;
+}
+
+.cart-item img {
+    width: 100px;
+    margin-left: 33px;
+    box-shadow: 1px 1px 5px rgb(82, 82, 82);
+}
+
+@keyframes fadeInLeft {
+    0% {
+       opacity: 0;
+       transform: translateX(-20px);
+    }
+    100% {
+       opacity: 1;
+       transform: translateX(0);
+    }
+ }   
+
+
+hr {
+    width: 98%;
+    height: 2px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -10px darkslategray;
+    animation: fadeInLeft 1s ease-in  ;
+}
+
+body {
+    margin: 0%;
+}
+
+.cart-desc {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100%;
+}
+
+.cart-price {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+.ContShopping {
+    background-color: white; 
+    border: 1px black solid;
+    color: black;
+    padding: 20px 70px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 35px;
+    font-size: 13px;
+}
+
+.Checkout {
+    background-color: black; 
+    border: 1px black solid;
+    color: white;
+    padding: 20px 61px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: uppercase;
+    margin: 10px 35px;
+    font-size: 13px;
+}
+
+.Checkout:hover{
+    background-color: rgba(0, 0, 0, 0.673);
+    cursor: pointer;
+}
+
+#SCheader {
+    font-family: Arial;
+    color: #253781;
+    font-size: 19px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-weight: bold;
+    width: 100%;
+    
+
+}
+
+#Total {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+}
+
+#TotalText{
+    padding-right: 90px;
+}
+
+#ApplePay, #Paypal {
+    width: 13%;
+    padding-left: 35px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+#Mastercard,#Visa,#CIMB{
+    width: 13%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+#Public,#MAE {
+    width: 18%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+
+#MethodsText {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 0px;
+}
+
+#TotalNum {
+    margin-left: 70px;
+}
+
+.delete-item-btn{
+    background-color: rgb(203, 0, 0);
+    border: none;
+    height: 42px;
+    margin-right: 20px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.delete-item-btn:hover{
+    cursor: pointer;
+    background-color: rgba(255, 0, 0, 0.721);
+}

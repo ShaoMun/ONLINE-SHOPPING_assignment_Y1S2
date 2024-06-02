@@ -1,0 +1,104 @@
+.content{
+    display: flex;
+    background-image: url(sign-bgimg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 666px;
+    border-radius: 10px;
+}
+
+.empty1{
+    flex:1;
+
+}
+
+.empty2{
+    flex:1;
+
+}
+
+.sign{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(205, 201, 201);
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 500px;
+    height: 600px;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.95);
+    box-shadow: 3px 3px 10px rgba(128, 128, 128, 0.751);
+}
+
+.weblogo{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 150px;
+    height:150px;
+}
+
+.sign-up-text p{
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 18px;
+}
+
+input{
+    display: block;
+    height: 35px;
+    width: 300px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 5px rgb(166, 166, 166);
+    font-size: 15px;
+    padding-left: 15px;
+}
+
+input::placeholder{
+    font-size: 15px;
+}
+
+.email-error{
+    color: red;
+    padding: 2px 3px;
+    margin: 5px 0px;
+}
+
+.password-error{
+    color: red;
+    padding: 2px 3px;
+    margin: 5px 0px;
+}
+
+.retype-error{
+    color: red;
+    padding: 2px 3px;
+    margin: 5px 0px;
+}
+
+button{
+    border: none;
+    background-color: rgba(0, 0, 255, 0.692);
+    color: white;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    font-size: 15px;
+    box-shadow: 3px 3px 5px rgb(166, 166, 166);
+    margin-bottom: 20px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 255, 0.796);
+    box-shadow: 6px 6px 6px rgb(166, 166, 166);
+}
+
+
+.sign-up-link:hover{
+    color: rgba(0, 0, 255, 0.607);
+}
+
+
+

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../header-footer.css">
+    <link rel="stylesheet" href="Checkout.css">
+    <script defer src="Checkout.js"></script>
+    <title>LuxeLab</title>
+    <style>
+        h1 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<header>
+    <div class="header-left">
+        <a href="../mainpage/mainpage.html"><img src="../Logo.png" alt="LuxeLab"></a>
+    </div>
+    <div class="header-right">
+
+        <div class="navbar-list">
+            <ul>
+                <li><a href="../new-product/new-product.html">NEW</a></li>
+                <li><a href="../makeup-product/makeup-product.html">MAKEUP</a></li>
+                <li><a href="../skincare-product/skincare-product.html">SKINCARE</a></li>
+                <li><a href="../fragrance-product/fragrance-product.html">FRAGRANCE</a></li>
+                <li><a href="../hair-product/hair-product.html">HAIR</a></li>
+
+            </ul>
+        </div>
+        <div class="navbar-img">
+            <a href="signup/signup.html"><img src="../mainpage/profile.png" alt="SignIn"></a>
+            <a href=""><img src="../mainpage/cart.png" alt="Cart"></a>
+        </div>
+    </div>
+</header>
+
+<body id="bod" style="overflow-x: hidden;">
+    <div id="mainamountcol">
+    <div id="amountcol"><p id="amounttext">Please finish making payment</p></div></div>
+    </p>
+    <div id="MainForm">
+        <form id="Payment" onsubmit="return redirectToAnotherPage()" >
+            <div id="button-container">
+                <div id="form-container">
+                    <div id="col">
+                        <p id="billheader">Finalise Payment & Billing Information</p>
+                        <label for="name"> Full Name:</label><br>
+                        <input type="text" id="name" name="name" pattern="[A-Za-z]{2,32}" required placeholder="Full Name (Max 32 Characters)"><br>
+                        <label for="cardno">Card No:</label><br>
+                        <input type="text" id="cardno" name="cardno" required placeholder="1111-2222-3333-4444"><br>
+                        <label for="expire"> Expiry:</label><br>
+                        <input type="text" id="expire" name="expire" required placeholder="MM/YY"><br>
+                        <label for="cvv"> CVV:</label><br>
+                        <input type="text" id="cvv" name="cvv" pattern="[0-9]{3}" required placeholder="123"><br>
+
+                    </div>
+                    <div id="col2">
+                        <label for="phone" id="phonetext"> Phone Number:</label><br>
+                        <input type="text" id="phone" name="phone" pattern="\d{3}-\d{3}-\d{4}" required placeholder="XXX-XXX-XXX (Must include'-')"><br>
+                        <label for="address">Address:</label><br>
+                        <input type="text" id="address" name="address" required placeholder="ENTER ADDRESS HERE"><br>
+                        <label for="city"> City:</label><br>
+                        <input type="text" id="city" name="city" pattern="[A-Za-z]{2,32}" required placeholder="Ampang"><br>
+                        <p id="statetext">State: </p><select id="state" name="state" required>
+                            <option value="" disabled selected>Select a state</option>
+                            <option value="Johor">Johor</option>
+                            <option value="Kedah">Kedah</option>
+                            <option value="Melaka">Melaka</option>
+                            <option value="Negeri Sembilan">Negeri Sembilan</option>
+                            <option value="Pahang">Pahang</option>
+                            <option value="Perak">Perak</option>
+                            <option value="Perlis">Perlis</option>
+                            <option value="Pulau Pinang">Pulau Pinang</option>
+                            <option value="Sabah">Sabah</option>
+                            <option value="Sarawak">Sarawak</option>
+                            <option value="Selangor">Selangor</option>
+                            <option value="Terengganu">Terengganu</option>
+                        </select>
+                        <br>
+                        <label for="postcode"> Postcode:</label><br>
+                        <input type="text" id="postcode" name="postcode" pattern="[0-9]{5}" required placeholder="68000"><br>
+                    </div>
+                </div>
+                <input type="submit" id="paybutton" class="paybutton" value="Make Payment">
+            </div>
+        </form>
+    </div>
+    <p id="notice">Please make sure information is correct before submiting.</p>
+    </div>
+
+
+</body>
+
+
+
+
+
+<footer>
+    <div class="upper-section">
+        <div class="footer-left">
+            <p>ABOUT US</p>
+            <ul>
+                <li><a href="../About Us Updated HTML/AboutUs.html">COMPANY INFO</a></li>
+                <li><a href="../loyaltyProgramme/LoyaltyProgram.html">LOYALTY PROGRAMME</a></li>
+                <li><a href="../news/news.html">NEWS</a></li>
+            </ul>
+        </div>
+        <div class="footer-mid">
+            <p>SUPPORT</p>
+            <ul>
+                <li><a href="../contactUs/contactus.html">CONTACT US</a></li>
+                <li><a href="../liveChat/livechat.html">LIVE CHAT</a></li>
+                <li><a href="../FAQs/faqtopquestion.html">FAQs</a></li>
+                <li><a href="../locateUs/locateUs-main.html">Find a store</a></li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <p>CONNECT</p>
+            <a href="https://www.facebook.com/" target=“_blank”><img class="facebook" src="../mainpage/facebook.png"
+                    alt="Facebook"></a>
+            <a href="https://www.instagram.com/" target=“_blank”><img class="instagram" src="../mainpage/instagram.png"
+                    alt="Instagram"></a>
+            <a href="https://twitter.com/" target=“_blank”><img class="x" src="../mainpage/x.png" alt="X"></a>
+        </div>
+    </div>
+    <div class="lower-section">
+        <div class="lower-left">
+            <p>Copyright © 2024 LuxeLab. All rights reserved.</p>
+        </div>
+        <div class="lower-right">
+            <a href="../privacyPolicy.html">Privacy Policy</a>
+            <a href="../termsOfUse.html">Terms of use</a>
+            <a href="../legal.html">Legal</a>
+        </div>
+    </div>
+</footer>
+
+</html>

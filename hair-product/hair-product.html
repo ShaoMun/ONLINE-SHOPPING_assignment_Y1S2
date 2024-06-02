@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../header-footer.css">
+    <link rel="stylesheet" href="../product-page.css">
+    <title>LuxeLab</title>
+</head>
+
+<body>
+
+    <header>
+        <div class="header-left">
+            <a href="../mainpage/mainpage.html"><img src="../Logo.png" alt="LuxeLab"></a>
+        </div>
+        <div class="header-right">
+
+            <div class="navbar-list">
+                <ul>
+                    <li><a href="../new-product/new-product.html">NEW</a></li>
+                        <li><a href="../makeup-product/makeup-product.html">MAKEUP</a></li>
+                        <li><a href="../skincare-product/skincare-product.html">SKINCARE</a></li>
+                        <li><a href="../fragrance-product/fragrance-product.html">FRAGRANCE</a></li>
+                        <li><a href="#">HAIR</a></li>
+                </ul>
+            </div>
+            <div class="navbar-img">
+                <a href="../signup/signup.html"><img src="../mainpage/profile.png" alt="SignIn"></a>
+                <a href="../cart/cart.html"><img src="../mainpage/cart.png" alt="Cart"></a>
+            </div>
+        </div>
+    </header>
+
+    <div class="content">
+        <div class="left-section">
+            <h1>HAIR</h1>
+            <div class="cat-filter">
+                <ul>
+                    <li><button class="filter-button-1 js-filter-button">SHAMPOO & CONDITIONER</button>
+                        <ul>
+                            <li><button class="filter-button-2 js-filter-button">SHAMPOO</button></li>
+                            <li><button class="filter-button-2 js-filter-button">DRY SHAMPOO</button></li>
+                            <li><button class="filter-button-2 js-filter-button">CONDITIONER</button></li>
+                            <li><button class="filter-button-2 js-filter-button">LEAVE-IN CONDITIONER</button></li>
+                        </ul>
+                    </li>
+                    <li><button class="filter-button-1 js-filter-button">STYLING</button>
+                        <ul>
+                            <li><button class="filter-button-2 js-filter-button">HAIR SPRAY</button></li>
+                            <li><button class="filter-button-2 js-filter-button">HAIR CREAM</button></li>
+                            <li><button class="filter-button-2 js-filter-button">MOUSSE</button></li>
+                            <li><button class="filter-button-2 js-filter-button">TEXTURISER</button></li>
+                        </ul>
+                    </li>
+                    <li><button class="filter-button-1 js-filter-button">TREATMENTS</button>
+                        <ul>
+                            <li><button class="filter-button-2 js-filter-button">HAIR MASKS</button></li>
+                            <li><button class="filter-button-2 js-filter-button">HAIR SERUM</button></li>
+                            <li><button class="filter-button-2 js-filter-button">HAIR OIL</button></li>
+                            <li><button class="filter-button-2 js-filter-button">SCALP TREATMENT</button></li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                
+            </div>
+            
+            <div class="price-slider">
+                <label for="min-price">Min Price:</label>
+                <input type="range" id="min-price" name="min-price" min="0" max="1500" value="0">
+                <span id="min-value">RM0</span>
+              
+                <label for="max-price">Max Price:</label>
+                <input type="range" id="max-price" name="max-price" min="0" max="1500" value="1500">
+                <span id="max-value">RM1500</span>
+                <span id="slider-error"></span>
+              
+                <button id="apply-btn">Apply</button>
+            </div>
+             
+            <div class="reset-button">
+                <button>RESET FILTER</button>
+            </div>
+              
+        </div>
+        <div class="right-section">
+            <div class="searchbar">
+                <input class="search-input" type="text" placeholder="Search"> 
+            </div>
+            <div class="products-container js-products-container"></div>
+        </div>
+    </div>
+
+    <footer>
+    <div class="upper-section">
+        <div class="footer-left">
+            <p>ABOUT US</p>
+            <ul>
+                <li><a href="../About Us Updated HTML/AboutUs.html">COMPANY INFO</a></li>
+                <li><a href="../loyaltyProgramme/LoyaltyProgram.html">LOYALTY PROGRAMME</a></li>
+                <li><a href="../news/news.html">NEWS</a></li>
+            </ul>     
+        </div>
+        <div class="footer-mid">
+            <p>SUPPORT</p>
+            <ul>
+                <li><a href="../contactUs/contactus.html">CONTACT US</a></li>
+                <li><a href="../liveChat/livechat.html">LIVE CHAT</a></li>
+                <li><a href="../FAQs/faqtopquestion.html">FAQs</a></li>
+                <li><a href="../locateUs/locateUs-main.html">LOCATE US</a></li>
+            </ul>
+        </div>
+        <div class="footer-right">
+            <p>CONNECT</p>
+            <a href="https://www.facebook.com/" target=“_blank”><img class="facebook" src="../mainpage/facebook.png"
+                    alt="Facebook"></a>
+            <a href="https://www.instagram.com/" target=“_blank”><img class="instagram"
+                    src="../mainpage/instagram.png" alt="Instagram"></a>
+            <a href="https://twitter.com/" target=“_blank”><img class="x" src="../mainpage/x.png" alt="X"></a>
+        </div>
+    </div>
+    <div class="lower-section">
+        <div class="lower-left">
+            <p>Copyright © 2024 LuxeLab. All rights reserved.</p>
+        </div>
+        <div class="lower-right">
+            <a href="../privacyPolicy.html">Privacy Policy</a>
+            <a href="../termsOfUse.html">Terms of use</a>
+            <a href="../legal.html">Legal</a>
+        </div>
+    </div>
+</footer>
+
+<script src="hairproduct-dataset.js"></script>
+<script type="module" src="../js function/filter.js"></script>
+</body>
+</html>

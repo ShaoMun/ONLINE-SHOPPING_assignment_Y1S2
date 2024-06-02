@@ -1,0 +1,149 @@
+.content{
+    display: flex;
+}
+
+.empty1{
+    flex:1;
+}
+
+.empty2{
+    flex:1;
+}
+
+.livechat{
+    width: 550px;
+    height: 680px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+
+}
+
+.livechat-header{
+    height:90px;
+    padding-left: 33px;
+    background-color: rgb(39, 41, 52);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+h3{
+    margin: 0;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 25px;
+    color: white;
+}
+
+.livechat-header p{
+    color: rgb(199, 199, 199);
+    margin:0;
+}
+
+.livechat-container{
+    flex: 1;
+    display: flexbox;
+    flex-direction: column;
+    overflow: auto;
+}
+
+.livechat-container img{
+    height: 50px;
+    width: 50px;
+    display: inline-block;
+    margin-left: 13px;
+    margin-top: 13px;
+    margin-right: 13px;
+}
+
+.csInfo{
+    display: inline-block;
+
+}
+
+.csInfo p{
+    font-size: 18px;
+    margin: 0;
+}
+
+
+.cs-reply{
+    display: flex;
+    margin-bottom: 6px;
+    margin-right: 20px;
+}
+
+.empty3{
+    flex:1;
+}
+
+.cs-reply-box{
+    padding: 10px;
+    background-color: rgb(198, 198, 198);
+    margin-left: 20px;
+    color: rgb(131, 107, 218);
+    border-radius: 15px;
+}
+
+.cs-reply-box p{
+    margin: 0;
+}
+
+.client-reply{
+    display: flex;
+    margin-bottom: 6px;
+    margin-left: 20px;
+}
+
+.empty4{
+    flex:1;
+}
+
+.client-reply-box{
+    padding: 10px;
+    background-color: rgb(78, 78, 128);
+    margin-right: 20px;
+    color: white;
+    border-radius: 15px;
+}
+
+.client-reply-box p{
+    margin: 0;
+}
+
+
+.livechat-input{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.input-div{
+    flex:1;
+}
+
+input{
+    width: 93%;
+    height: 30px;
+    margin-left: 15px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+button{
+    width: 60px;
+    height: 36px;
+    margin-right: 15px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    border-radius: 10px;
+}
+
+.livechat-input button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.795);
+}

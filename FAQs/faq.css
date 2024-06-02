@@ -1,0 +1,91 @@
+div#faq {
+    display: flex;
+}
+
+aside {
+    width: 20%;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul.faqcategory {
+    list-style-type: none;
+    margin-top: 60px;
+}
+
+ul.faqcategory li {
+    padding: 5px;
+}
+
+ul.faqcategory li a {
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+}
+
+ul.faqcategory li a:hover {
+    background-color: rgb(45, 45, 45,0.5);
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 5px;
+    color:rgba(255, 255, 255, 0.7);
+}
+
+div.table {
+    width: 65%;
+    font-family: Arial;
+    line-height: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-decoration: none;
+}
+
+div#dtdd1 {
+    animation: fadeLeft 1s forwards;
+}
+
+div#dtdd2 {
+    animation: fadeLeft 2s forwards;
+}
+
+div#dtdd3 {
+    animation: fadeLeft 3s forwards;
+}
+
+div#dtdd4 {
+    animation: fadeLeft 4s forwards;
+}
+
+div#dtdd5 {
+    animation: fadeLeft 5s forwards;
+}
+
+
+@keyframes fadeLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+dt {
+    font-weight: bold;
+    line-height: 3;
+    font-size: 14px;
+}
+
+dd {
+    font-size: 12px;
+}

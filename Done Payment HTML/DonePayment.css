@@ -1,0 +1,50 @@
+@media screen and (max-width: 1024px){
+    #tick {
+        padding-left: 20%;
+    }
+}
+
+
+.Back2home {
+    background-color: lightslategrey; 
+    border: 1px black solid;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 660px;
+    margin-top: 20px;
+    font-size: 13px;
+  }
+
+#text1 {
+    font-family: Arial ;
+	font-size: 12px;
+	line-height: 18px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    padding-top: 10px;
+    text-align: center;
+	font-weight: bold;
+    width: 100%;
+    
+
+
+}
+
+#tick {
+    width: 15%;
+    padding-left: 610px;
+}
+
+h1 {
+    font-family: Arial ;
+	font-size: 12px;
+	line-height: 18px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+    padding-top: 10px;
+    font-weight: bold;
+}

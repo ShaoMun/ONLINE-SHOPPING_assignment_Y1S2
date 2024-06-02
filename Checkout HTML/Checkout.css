@@ -1,0 +1,172 @@
+
+#bod {
+    background-image: linear-gradient(#343d46, #4f5b66,#65737e,#a7adba,#c0c5ce);
+    margin: 0px;
+}
+
+#mainamountcol {
+ width: 50.55%;
+ padding: 10px;
+ margin-left: 105px;
+}
+
+
+#amountcol {
+    display: flex;
+    padding-left: 375px;
+    margin-left: 100px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    font-family: Arial;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+    width: 90%;
+    text-align: center;
+    background-color: white;
+
+}
+head,header,footer,html {
+    background-color: white;
+}
+
+input,#state{
+    padding: 10px;
+    background-color: whitesmoke;
+    border: 1px black solid;
+    }
+
+
+#Payment {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    margin-bottom: 1px;
+    background-color: white;
+    width: 80%;
+    margin-left: 65px;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+    
+
+#MainForm {
+    display: flex;
+    flex-direction: row;
+    margin-left: 150px;
+}
+#col input,#col2 input {
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+#col {
+    width: 50%;
+    padding: 20px;
+}
+#col2 {
+    width: 50%;
+    padding: 20px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+#form-container {
+    display: flex;
+    flex-direction: row;
+}
+
+#name {
+    width: 50%;
+}
+#cardno {
+    width: 40%;
+}
+
+#expire {
+    width: 10%;
+}
+
+#cvv {
+    width: 10%;
+}
+
+#phone {
+    width: 50%;
+}
+#phonetext {
+    width: 50%;
+}
+
+#city {
+    width: 40%;
+}
+
+#postcode {
+    width: 10%;
+}
+
+.paybutton {
+    background-color: red; 
+    border: 1px black solid;
+    color: white;
+    padding: 5px ;
+    text-align: center;
+    font-weight: bold;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-left: 300px;
+    font-size: 16px;
+    width: 40%;
+    margin-bottom: 25px;
+}
+
+#state {
+    width: 40%;
+    margin-bottom: 10px;
+}
+
+#statetext {
+    width: 10%;
+
+}
+
+#billheader {
+    font-family: Arial;
+    font-size: 18px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    text-align: left;
+    width: 210%;
+    text-align: center;
+}
+
+#address {
+    width: 88%;
+}
+
+.upper-section {
+    padding-top: 25px;
+}
+
+#address {
+    width: 75%;
+}
+
+#notice {
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    font-family: Arial;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+    width: 72%;
+    text-align: center;
+    background-color: white;
+    margin-left: 213px;
+}
